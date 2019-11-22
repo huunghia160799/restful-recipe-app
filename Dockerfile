@@ -15,4 +15,4 @@ COPY ./app /app
 
 # prevent any user from taking root priorities
 RUN adduser -D user
-USER userx
+USER user
