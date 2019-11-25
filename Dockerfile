@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER Huu-Nghia H. Nguyen
+LABEL Huu-Nghia H. Nguyen
 
 # prevent Python from misbehaving when using Docker
 ENV PYTHONUNBUFFERED 1
